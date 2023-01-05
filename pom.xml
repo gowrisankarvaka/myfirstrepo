@@ -30,20 +30,10 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
+					<standaloneDeployment>
+						<muleHome>G:\Gowrisankar\mule-enterprise-standalone-4.4.0-20220622</muleHome>
 						<muleVersion>4.4.0</muleVersion>
-						<username>gowrisankar11</username>
-						<password>Gowri123$</password>
-						<applicationName>mvnapp001</applicationName>
-						<environment>Sandbox</environment>
-						<region>us-east-2</region>
-						<workers>1</workers>
-						<workerType>Micro</workerType>
-						<properties>
-							<key>value</key>
-						</properties>
-					</cloudHubDeployment>
+					</standaloneDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
